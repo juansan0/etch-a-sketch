@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: #181818;
+    font-family: 'Poppins', sans-serif;
+}
+
+.grid{
+    height: 500px;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: grid;
+}
+
+.squares{
+    color: #000;
+}
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+    color: white;
+    font-weight: 200;
+}
+
+.buttons{
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+
+.buttons button{
+    color: black;
+    font-size: 25px;
+    padding: 0 5px;
+    background-color: white;
+    margin: 0 15px;
+    font-weight: 400;
+}
+
+.buttons button:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.buttons .checkbox{
+    margin-left: 15px;
+}
+
+.buttons .checkbox:hover{
+    cursor: pointer;
+}
+
+.buttons .checkbox-text{
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.buttons h2{
+    margin-top: 15px;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.buttons .color-picker{
+    border: 0;
+    margin: 0 15px;
+}
+
+.buttons .color-picker:hover{
+    cursor: pointer;
+}
+
+.buttons .slidebar:hover{
+    cursor: pointer;
+}
